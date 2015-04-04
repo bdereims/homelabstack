@@ -1,0 +1,15 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh net-edit storage
+or other application using the libvirt API.
+-->
+
+<network>
+  <name>storage</name>
+  <uuid>de438690-890d-46b9-87a7-6221df61300f</uuid>
+  <bridge name='virbr3' stp='on' delay='0'/>
+  <mac address='52:54:00:5b:91:d6'/>
+  <ip address='10.0.2.254' netmask='255.255.255.0'>
+  </ip>
+</network>

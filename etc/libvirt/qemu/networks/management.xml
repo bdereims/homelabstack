@@ -1,0 +1,19 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh net-edit management
+or other application using the libvirt API.
+-->
+
+<network>
+  <name>management</name>
+  <uuid>f095b4de-d222-4025-9f0f-5f1620bec4a4</uuid>
+  <forward mode='route'/>
+  <bridge name='virbr1' stp='on' delay='0'/>
+  <mac address='52:54:00:c1:7e:de'/>
+  <ip address='10.0.0.254' netmask='255.255.255.0'>
+    <dhcp>
+      <range start='10.0.0.250' end='10.0.0.254'/>
+    </dhcp>
+  </ip>
+</network>
